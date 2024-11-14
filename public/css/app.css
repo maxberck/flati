@@ -1,3 +1,63 @@
+.lato-thin {
+  font-family: "Lato", sans-serif;
+  font-weight: 100;
+  font-style: normal;
+}
+
+.lato-light {
+  font-family: "Lato", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.lato-regular {
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.lato-bold {
+  font-family: "Lato", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.lato-black {
+  font-family: "Lato", sans-serif;
+  font-weight: 900;
+  font-style: normal;
+}
+
+.lato-thin-italic {
+  font-family: "Lato", sans-serif;
+  font-weight: 100;
+  font-style: italic;
+}
+
+.lato-light-italic {
+  font-family: "Lato", sans-serif;
+  font-weight: 300;
+  font-style: italic;
+}
+
+.lato-regular-italic {
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.lato-bold-italic {
+  font-family: "Lato", sans-serif;
+  font-weight: 700;
+  font-style: italic;
+}
+
+.lato-black-italic {
+  font-family: "Lato", sans-serif;
+  font-weight: 900;
+  font-style: italic;
+}
+
 header {
   background-color: #363B47;
   color: white;
@@ -5,6 +65,9 @@ header {
   justify-content: center;
   align-items: center;
   gap: 15em;
+}
+header h1 {
+  font-weight: 300;
 }
 
 nav ul {
@@ -17,13 +80,72 @@ nav ul {
 }
 nav ul .blue {
   align-content: center;
+  text-align: center;
   color: white;
-  background-color: #3676BB;
+  background-color: #3676bb;
   height: 4em;
+  width: 5em;
+}
+
+.bg_img {
+  height: 25em;
+  object-fit: cover;
+}
+.bg_img img {
+  height: 25em;
+  width: 100%;
+}
+
+.s2 {
+  background-color: #E8E6E0;
+  font-size: 1.8em;
+  text-align: center;
+  font-weight: 400;
+  color: #8d8b8d;
+  height: 8em;
+  align-content: center;
+}
+.s2 p mark {
+  color: white;
+  background-color: #26A2CC;
+}
+.s2 p .blue {
+  color: #26A2CC;
+}
+.s2 p .gray {
+  color: #69747F;
+}
+
+.s3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2em;
+  height: 20em;
+}
+.s3 div {
+  height: 15em;
+  width: 15em;
+  background-color: #E2E0E0;
+  border-radius: 0.2em;
+  text-align: center;
+}
+.s3 div h1 {
+  color: #5B575B;
+  font-size: 1em;
+}
+.s3 div p {
+  font-size: 0.8em;
+  gap: 2em;
+  color: #8d8b8d;
+}
+.s3 div .s3_txt {
+  color: #3676bb;
 }
 
 * {
   margin: 0;
+  font-family: "Lato", sans-serif;
 }
 
 /*# sourceMappingURL=app.css.map */
