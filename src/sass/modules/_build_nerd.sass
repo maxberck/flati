@@ -3,7 +3,8 @@
     justify-content: center
     align-items: center
     gap: 2em
-    height: 20em
+    height: auto
+    margin-top: 2em
     div
         display: flex
         flex-direction: column
@@ -36,7 +37,18 @@
             padding-right: 1em
         .s3_txt
             color: $secondary-color
+
 @media (max-width: 1024px) 
     .s3
         justify-content: space-around
         gap: 0
+
+@media (max-width:768px) 
+    .s3
+        flex-wrap: wrap
+        gap: 7em
+        justify-content: center
+
+@media (max-width:425px)
+    .s3
+        gap: 2em

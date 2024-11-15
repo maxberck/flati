@@ -47,6 +47,31 @@
                     color: #888D97
                     font-size: .7em
                     
+@media (max-width:768px) 
+    .s4
+        flex-direction: column
+        justify-content: center
+        align-items: center
+        gap: 5em
+        .s4_txt
+            width: 40%
+            button
+                height: 3em
+            
+        div
+            justify-content: center
 
+@media (max-width:425px)
+    .s4
+        div
+            flex-direction: column
+            div
+                padding-top: 2em
                 
+@media (max-width:375px)
+    .s4
+        .s4_txt
+            button
+                width: 45%
+                height: 4em
 
