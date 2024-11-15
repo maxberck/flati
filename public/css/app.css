@@ -95,6 +95,16 @@ nav ul .blue {
   text-decoration: none;
 }
 
+@media (max-width: 1024px) {
+  nav ul {
+    gap: 2em;
+  }
+}
+@media (max-width: 768px) {
+  nav ul {
+    gap: 1em;
+  }
+}
 .bg_img {
   height: 25em;
   object-fit: cover;
@@ -176,6 +186,12 @@ nav ul .blue {
   color: #3676bb;
 }
 
+@media (max-width: 1024px) {
+  .s3 {
+    justify-content: space-around;
+    gap: 0;
+  }
+}
 .s4 {
   display: flex;
   justify-content: center;
